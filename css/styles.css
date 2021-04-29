@@ -127,11 +127,12 @@ nav ul li a:hover {
 
 /* Herbtie Parallaxe Section in Home anfang*/
 .herbtiepara {
-height: 100vh;
+height: 90vh;
 display: flex;
 padding: 0 0;
 align-items: center;
 justify-content: center;
+overflow: hidden;
 }
 
 .bd-grid{
@@ -165,3 +166,78 @@ justify-content: center;
 }
 
 /* Herbtie Parallaxe Section in Home ende*/
+
+.about{
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ueberschrift {
+  overflow: hidden;
+  margin-top: -6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 56pt;
+  color: #ffffff;
+
+  transform: rotate(-3deg);
+  /* Legacy vendor prefixes that you probably don't need... */
+  /* Safari */
+  -webkit-transform: rotate(-3deg);
+  /* Firefox */
+  -moz-transform: rotate(-3deg);
+  /* IE */
+  -ms-transform: rotate(-3deg);
+  /* Opera */
+  -o-transform: rotate(-3deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.ueberschrift2 {
+  overflow: hidden;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 38.5pt;
+  color: #ffffff;
+
+  transform: rotate(-3deg);
+  /* Legacy vendor prefixes that you probably don't need... */
+  /* Safari */
+  -webkit-transform: rotate(-3deg);
+  /* Firefox */
+  -moz-transform: rotate(-3deg);
+  /* IE */
+  -ms-transform: rotate(-3deg);
+  /* Opera */
+  -o-transform: rotate(-3deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.no {
+  height: 20vh;
+}
+
+.ohne {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 19vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  color: #ffffff;
+}
