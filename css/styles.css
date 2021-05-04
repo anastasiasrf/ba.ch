@@ -32,7 +32,7 @@ nav, .navbar-toggle {
 nav {
   position: fixed;
   z-index: 10;
-  background-image: linear-gradient(to top, #576f2d 0%, #f0e9dc 100%);
+  background: linear-gradient(180deg, rgba(0,66,202,1) 9%, rgba(0,162,229,1) 100%);
   width: 100%;
   height: 100vh;
   text-align: center;
@@ -54,12 +54,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #ffffff;
 }
 
 nav ul li a:hover {
   background-size: 100% 88%;
-  color: #576f2d;
+  color: #00a2e5;
 }
 
 .schrift_nav {
@@ -68,15 +68,14 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: termina,sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   font-size: 80pt;
 }
 
 .navbar-toggle {
   position: fixed;
-  top: 30px;
+  top: 25px;
   right: 20px;
   width: 45px;
   height: 45px;
@@ -93,7 +92,7 @@ nav ul li a:hover {
 }
 
 .navbar-on .bar1, .navbar-on .bar2, .navbar-on .bar3 {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 
 .navbar-on .bar1 {
@@ -264,7 +263,7 @@ padding-top: 2rem;
 }
 
 .verfügbar {
-  height: 50vh;
+  height: 60vh;
 }
 
 .verfügbar_text {
@@ -287,28 +286,600 @@ padding-top: 2rem;
 }
 
 .footer {
-  background-color: #00a2e5;
-  height: 10vh;
+height: 10%;
+background-color: #d8dcdd;
+width: 100%;
 }
 
-.footer_text{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
+.footer img {
+  margin: 15px 10px 0 60px;
+}
+
+.footer_text {
+  margin: 25px 60px 0px 0px;
+  float: right;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 13pt;
-  padding-top: 1.5rem;
+  font-size: 12pt;
+  color: #0042ca;
+}
+
+.footer a {
+  color: #0042ca;
+}
+
+
+.kontakt {
+  background: linear-gradient(180deg, rgba(0,66,202,1) 9%, rgba(0,162,229,1) 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.kontakt p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15pt;
   color: #ffffff;
 }
 
-.footer_icons{
+.kontakt h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 60pt;
+  color: #ffffff;
+}
+
+
+.impressum_adresse {
+  background: linear-gradient(180deg, rgba(0,66,202,1) 0%, rgba(0,162,229,1) 80%);
+  margin-top: 3rem;
+  display: flex;
+  padding: 9rem 3rem 0 3rem;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+
+}
+
+.impressum_adresse h2{
+  font-size: 15pt;
+}
+
+.impressum_adresse h3{
+  font-size: 12pt;
+}
+
+.impressum {
+  background: #00a2e5;
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+
+/* Media Queries ab hier */
+
+@media (min-width: 375px) {
+
+  /* NAV */
+.schrift_nav {
+  padding-top: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  margin: auto;
-  padding-top: 1rem;
+  line-height: 60pt;
+  font-size: 30pt;
+}
+  /* NAV ende */
+
+  .bangpara {
+    height: 80vh;
+    display: flex;
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+
+    .home__img {
+      /*padding-top: 50rem;*/
+      justify-self: center;
+      width: 600px;
+      /*height: 233px;*/
+    }
+
+    .home__img img {
+      position: absolute;
+      top: 6rem;
+      left: 0;
+    }
+
+    .about{
+      margin: -10rem 0 0 0;
+    }
+
+    .ueberschrift {
+      margin-top: -10rem;
+      font-size: 30.5pt;
+      line-height: 40pt;
+      display: table-cell;
+	    vertical-align: middle;
+	    text-align:center;
+    }
+
+      .ueberschrift2 {
+        margin-top: -3rem;
+        font-size: 18pt;
+        display: table-cell;
+  	    vertical-align: middle;
+  	    text-align:center;
+      }
+
+      .ohne {
+        font-size: 9pt;
+        margin-top: -2rem;
+      }
+
+      .insta img {
+        margin-top: -4rem;
+        width: 300px;
+        padding-bottom: 6rem;
+      }
+
+      .verfügbar {
+        margin-top: -5rem;
+      }
+
+      .verfügbar_text {
+        font-size: 15pt;
+      }
+
+      .verfügbar_migros {
+        display: flex;
+        justify-content: center;
+        margin-top: -2rem;
+      }
+
+      .verfügbar_migros img{
+        width: 20rem;
+      }
+
+  /* footer */
+
+    .footer img {
+      margin: 1.2rem 0rem 0 1rem;
+      width: 3rem;
+    }
+
+    .footer_text {
+      margin: 25px 0;
+      line-height: 20pt;
+      font-size: 10pt;
+      color: #0042ca;
+    }
+
+    /* footer ende */
+
+    .kontakt p{
+      font-size: 10pt;
+    }
+
+    .kontakt h1{
+      font-size: 18pt;
+
+    }
+
+    .impressum_adresse {
+    padding: 5rem 1rem 0 1rem;
+  }
+
+  .impressum {
+    padding: 1rem;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 576px) {
+  /* NAV */
+  .schrift_nav {
+    padding-top: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 80pt;
+    font-size: 50pt;
+  }
+  /* NAV ende */
+
+  .bangpara {
+    height: 80vh;
+    display: flex;
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+
+    .home__img {
+      justify-self: center;
+      width: 800px;
+    }
+
+    .home__img img {
+      position: absolute;
+      top: 6rem;
+      left: 0;
+    }
+
+    .about{
+      margin: 0rem 0 0 0;
+    }
+
+    .ueberschrift {
+      margin-top: -10rem;
+      font-size: 25pt;
+      display: table-cell;
+      vertical-align: middle;
+      text-align:center;
+    }
+
+      .ueberschrift2 {
+        margin-top: -7rem;
+        font-size: 15pt;
+        display: table-cell;
+        vertical-align: middle;
+        text-align:center;
+      }
+
+      .ohne {
+        font-size: 12pt;
+        margin-top: -5em;
+      }
+
+      .insta img {
+        margin-top: -6rem;
+      }
+
+      .verfügbar {
+        margin-top: -6rem;
+      }
+
+      .verfügbar_text {
+        font-size: 15pt;
+      }
+
+      .verfügbar_migros {
+        display: flex;
+        justify-content: center;
+        margin-top: -2rem;
+      }
+
+      .verfügbar_migros img{
+        width: 20rem;
+      }
+
+  /* footer */
+
+      .footer img {
+        margin: 1rem 0rem 0 1.5rem;
+        width: 3rem;
+      }
+
+      .footer_text {
+        margin: 25px 20px 0px 0px;
+        font-size: 13pt;
+      }
+
+      /* footer ende */
+
+      .kontakt p{
+        font-size: 13pt;
+      }
+
+      .kontakt h1{
+        font-size: 35pt;
+      }
+}
+
+@media (min-width: 768px) {
+
+  /* NAV */
+
+  .schrift_nav {
+    padding-top: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50pt;
+  }
+
+  /* NAV ende */
+
+
+  .bangpara {
+    height: 80vh;
+    display: flex;
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+
+    .home__img {
+      justify-self: center;
+      width: 1024px;
+    }
+
+    .home__img img {
+      position: absolute;
+      top: 6rem;
+      left: 0;
+    }
+
+    .about{
+      margin: 6rem 0 0 0;
+    }
+
+    .ueberschrift {
+      font-size: 33pt;
+      display: table-cell;
+      vertical-align: middle;
+      text-align:center;
+    }
+
+      .ueberschrift2 {
+        padding-top: 0.5rem;
+        font-size: 22.5pt;
+        display: table-cell;
+        vertical-align: middle;
+        text-align:center;
+      }
+
+      .ohne {
+        font-size: 15pt;
+        margin-top: -3em;
+      }
+
+      .insta img {
+        margin-top: -4rem;
+      }
+
+      .verfügbar {
+        margin-top: -6rem;
+      }
+
+      .verfügbar_text {
+        font-size: 16pt;
+      }
+
+      .verfügbar_migros {
+        display: flex;
+        justify-content: center;
+        margin-top: -2rem;
+      }
+
+      .verfügbar_migros img{
+        width: 20rem;
+      }
+
+  /* footer */
+
+  .footer img {
+    margin: 15px 10px 0 60px;
+    width: 2rem;
+  }
+
+  .footer_text {
+    margin-right: 1rem;
+    font-size: 10pt;
+  }
+}
+
+@media (min-width: 992px){
+
+  /* NAV */
+
+.schrift_nav {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 120pt;
+  font-size: 80pt;
+}
+
+/* NAV ende */
+
+.bangpara {
+  height: 80vh;
+  display: flex;
+  padding: 0 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  }
+
+  .home__img {
+    justify-self: center;
+    width: 1200px;
+  }
+
+  .home__img img {
+    position: absolute;
+    top: 6rem;
+    left: 0;
+  }
+
+  .about{
+    margin: 10rem 0 0 0;
+  }
+
+  .ueberschrift {
+    font-size: 38pt;
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+  }
+
+    .ueberschrift2 {
+      padding-top: 0.5rem;
+      font-size: 26pt;
+      display: table-cell;
+      vertical-align: middle;
+      text-align:center;
+    }
+
+    .ohne {
+      font-size: 18pt;
+      margin-top: -2em;
+    }
+
+    .insta img {
+      margin-top: -1rem;
+    }
+
+    .verfügbar {
+      margin-top: -4rem;
+    }
+
+    .verfügbar_text {
+      font-size: 18pt;
+    }
+
+    .verfügbar_migros {
+      display: flex;
+      justify-content: center;
+      margin-top: -2rem;
+    }
+
+    .verfügbar_migros img{
+      width: 22.5rem;
+    }
+
+  /* footer */
+
+  .footer img {
+    margin: 15px 10px 0 60px;
+    width: 2rem;
+  }
+
+  .footer_text {
+    margin-right: 3rem;
+    font-size: 10pt;
+  }
+
+  .kontakt p{
+    font-size: 15pt;
+  }
+
+  .kontakt h1{
+    font-size: 40pt;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  /* NAV */
+
+  .schrift_nav {
+    padding-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 120pt;
+    font-size: 80pt;
+  }
+
+  /* NAV ende */
+
+  .bangpara {
+    height: 90vh;
+    display: flex;
+    padding: 0 0;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    }
+
+    .home__img {
+      justify-self: center;
+      width: 1366px;
+    }
+
+    .home__img img {
+      position: absolute;
+      top: 3rem;
+      left: 0;
+    }
+
+    .about{
+      margin: 12rem 0 0 0;
+    }
+
+    .ueberschrift {
+      font-size: 50pt;
+      display: table-cell;
+      vertical-align: middle;
+      text-align:center;
+    }
+
+      .ueberschrift2 {
+        padding-top: 1rem;
+        font-size: 34.5pt;
+        display: table-cell;
+        vertical-align: middle;
+        text-align:center;
+      }
+
+      .ohne {
+        font-size: 22pt;
+        margin-top: 0em;
+      }
+
+      .insta img {
+        margin-top: 6rem;
+        width: 300px;
+      }
+
+      .verfügbar {
+        margin-top: -1rem;
+      }
+
+      .verfügbar_text {
+        font-size: 22pt;
+      }
+
+      .verfügbar_migros {
+        display: flex;
+        justify-content: center;
+        margin-top: -2rem;
+      }
+
+      .verfügbar_migros img{
+        width: 27.5rem;
+      }
+
+
+      .footer img {
+        margin: 15px 10px 0 60px;
+        width: 3rem;
+      }
+
+      .footer_text {
+        margin-right: 3rem;
+        font-size: 15pt;
+      }
+
+    .kontakt p{
+      font-size: 20pt;
+    }
+
+    .kontakt h1{
+      font-size: 45pt;
+    }
 }
