@@ -262,6 +262,24 @@ padding-top: 2rem;
   width: 300px;
 }
 
+.insta2 {
+margin: auto;
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.insta2 div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta2 img {
+  width: 300px;
+}
+
 .verfügbar {
   height: 60vh;
 }
@@ -844,6 +862,11 @@ width: 100%;
       .insta img {
         margin-top: 6rem;
         width: 300px;
+      }
+
+      .insta2 img {
+        width: 300px;
+        margin-top: -3rem;
       }
 
       .verfügbar {
