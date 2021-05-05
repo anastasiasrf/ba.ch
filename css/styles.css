@@ -244,12 +244,12 @@ overflow: hidden;
 }
 
 .insta {
-margin: auto;
-width: 90%;
-display: flex;
-justify-content: center;
-align-items: center;
-padding-top: 2rem;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
 }
 
 .insta div{
@@ -263,11 +263,11 @@ padding-top: 2rem;
 }
 
 .insta2 {
-margin: auto;
-width: 90%;
-display: flex;
-justify-content: center;
-align-items: center;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .insta2 div{
@@ -279,6 +279,7 @@ align-items: center;
 .insta2 img {
   width: 300px;
 }
+
 
 .verfügbar {
   height: 60vh;
