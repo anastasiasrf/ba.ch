@@ -450,6 +450,12 @@ width: 100%;
         padding-bottom: 6rem;
       }
 
+      .insta2 img {
+        margin-top: -4rem;
+        width: 300px;
+        padding-bottom: 6rem;
+      }
+
       .verfügbar {
         margin-top: -5rem;
       }
@@ -563,6 +569,8 @@ width: 100%;
       .insta img {
         margin-top: -6rem;
       }
+
+      
 
       .verfügbar {
         margin-top: -6rem;
