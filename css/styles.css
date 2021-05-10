@@ -127,7 +127,7 @@ nav ul li a:hover {
 
 
 /* Herbtie Parallaxe Section in Home anfang*/
-.herbtiepara {
+.bangpara {
 height: 90vh;
 display: flex;
 padding: 0 0;
@@ -243,7 +243,30 @@ overflow: hidden;
   color: #ffffff;
 }
 
-.insta {
+
+.insta3 {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.insta3 div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.insta3 img {
+  width: 100%;
+  margin-bottom: -6rem;
+}
+
+
+
+/*.insta {
   margin: auto;
   width: 90%;
   display: flex;
@@ -262,6 +285,7 @@ overflow: hidden;
   width: 300px;
 }
 
+
 .insta2 {
   margin: auto;
   width: 90%;
@@ -278,11 +302,12 @@ overflow: hidden;
 
 .insta2 img {
   width: 300px;
-}
+}*/
 
 
 .verfügbar {
-  height: 60vh;
+  padding-top: 10rem;
+  height: 80vh;
 }
 
 .verfügbar_text {
@@ -570,7 +595,7 @@ width: 100%;
         margin-top: -6rem;
       }
 
-      
+
 
       .verfügbar {
         margin-top: -6rem;
