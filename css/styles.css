@@ -261,7 +261,8 @@ overflow: hidden;
 
 .insta3 img {
   width:100%;
-  margin-bottom: 3rem;
+  /*margin-bottom: 3rem;*/
+  padding-bottom: 1rem;
 }
 
 
@@ -916,7 +917,7 @@ width: 100%;
       }
 
       .insta3 img {
-        margin-bottom: 2rem;
+        padding-bottom: 1rem;
       }
 
       .verfügbar {
