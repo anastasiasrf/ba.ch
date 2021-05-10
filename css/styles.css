@@ -445,7 +445,7 @@ width: 100%;
     }
 
     .about{
-      margin: -10rem 0 0 0;
+      margin: -8rem 0 0 0;
     }
 
     .ueberschrift {
@@ -501,7 +501,7 @@ width: 100%;
       .verfügbar_migros {
         display: flex;
         justify-content: center;
-        margin-top: -2rem;
+        margin-top: -3rem;
       }
 
       .verfügbar_migros img{
