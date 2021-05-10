@@ -265,6 +265,20 @@ overflow: hidden;
   padding-bottom: 1rem;
 }
 
+.produkt {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20pt;
+  text-align:justify;
+  color: #ffffff;
+}
+
 
 
 /*.insta {
@@ -307,7 +321,7 @@ overflow: hidden;
 
 
 .verfügbar {
-  padding-top: 6rem;
+  padding-top: 0rem;
   height: 80vh;
 }
 
@@ -490,12 +504,19 @@ width: 100%;
         margin-bottom: 2rem;
       }
 
+      .produkt {
+        padding-top: 0rem;
+        font-size: 12pt;
+        text-align: left;
+      }
+
+
       .verfügbar {
         margin-top: -5rem;
       }
 
       .verfügbar_text {
-        font-size: 15pt;
+        font-size: 12pt;
       }
 
       .verfügbar_migros {
@@ -505,7 +526,7 @@ width: 100%;
       }
 
       .verfügbar_migros img{
-        width: 20rem;
+        width: 12rem;
       }
 
   /* footer */
@@ -604,7 +625,11 @@ width: 100%;
         margin-top: -6rem;
       }*/
 
-
+      .produkt {
+        padding-top: 0rem;
+        font-size: 15pt;
+        text-align: left;
+      }
 
       .verfügbar {
         margin-top: -6rem;
@@ -710,6 +735,14 @@ width: 100%;
         margin-top: -4rem;
       }*/
 
+
+      .produkt {
+        padding-top: 0rem;
+        font-size: 16pt;
+        text-align:justify;
+      }
+
+
       .verfügbar {
         margin-top: -6rem;
       }
@@ -802,6 +835,12 @@ width: 100%;
 
     .insta img {
       margin-top: -1rem;
+    }
+
+    .produkt {
+      padding-top: 0rem;
+      font-size: 18pt;
+      text-align: justify;
     }
 
     .verfügbar {
@@ -918,6 +957,12 @@ width: 100%;
 
       .insta3 img {
         padding-bottom: 1rem;
+      }
+
+      .produkt {
+        padding-top: 0rem;
+        font-size: 22pt;
+        text-align: justify;
       }
 
       .verfügbar {
