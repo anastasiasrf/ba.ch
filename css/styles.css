@@ -246,7 +246,7 @@ overflow: hidden;
 
 .insta3 {
   margin: auto;
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -260,8 +260,8 @@ overflow: hidden;
 }
 
 .insta3 img {
-  width: 100%;
-  margin-bottom: -6rem;
+  width:100%;
+  margin-bottom: 3rem;
 }
 
 
@@ -306,7 +306,7 @@ overflow: hidden;
 
 
 .verfügbar {
-  padding-top: 10rem;
+  padding-top: 6rem;
   height: 80vh;
 }
 
@@ -469,7 +469,7 @@ width: 100%;
         margin-top: -2rem;
       }
 
-      .insta img {
+      /*.insta img {
         margin-top: -4rem;
         width: 300px;
         padding-bottom: 6rem;
@@ -479,6 +479,14 @@ width: 100%;
         margin-top: -4rem;
         width: 300px;
         padding-bottom: 6rem;
+      }*/
+
+      .insta3 {
+        margin-top: -4rem;
+      }
+
+      .insta3 img {
+        margin-bottom: 2rem;
       }
 
       .verfügbar {
@@ -591,9 +599,9 @@ width: 100%;
         margin-top: -5em;
       }
 
-      .insta img {
+      /*.insta img {
         margin-top: -6rem;
-      }
+      }*/
 
 
 
@@ -697,9 +705,9 @@ width: 100%;
         margin-top: -3em;
       }
 
-      .insta img {
+      /*.insta img {
         margin-top: -4rem;
-      }
+      }*/
 
       .verfügbar {
         margin-top: -6rem;
@@ -893,7 +901,7 @@ width: 100%;
         margin-top: 0em;
       }
 
-      .insta img {
+      /*.insta img {
         margin-top: 6rem;
         width: 300px;
       }
@@ -901,6 +909,14 @@ width: 100%;
       .insta2 img {
         width: 300px;
         margin-top: -3rem;
+      }*/
+
+      .insta3 {
+        margin-top: 1rem;
+      }
+
+      .insta3 img {
+        margin-bottom: 2rem;
       }
 
       .verfügbar {
